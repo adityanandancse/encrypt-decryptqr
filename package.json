@@ -1,0 +1,48 @@
+{
+  "name": "qr-password",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "check": "npm run typecheck & npm run lint & npm run pretty:check & npm run test",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "pretty:check": "npx prettier . --check",
+    "pretty:write": "npx prettier . --write",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@heroicons/react": "^1.0.6",
+    "@zxing/library": "^0.20.0",
+    "client-only": "^0.0.1",
+    "formik": "^2.4.5",
+    "idb-keyval": "^6.2.1",
+    "jimp": "^0.22.10",
+    "next": "14.0.4",
+    "qr-scanner": "^1.4.2",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-use-measure": "^2.1.1",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "postcss": "^8",
+    "prettier": "^3.1.1",
+    "prettier-plugin-tailwindcss": "^0.5.9",
+    "tailwindcss": "^3.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5"
+  }
+}

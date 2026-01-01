@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .disabled {
+    @apply disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .focus-ring {
+    @apply focus:z-10 focus:outline-none focus:ring;
+  }
+}
+
+@layer components {
+  .action-button {
+    @apply disabled focus-ring flex items-center justify-center rounded-md bg-indigo-500 p-2 text-sm text-white shadow-sm focus:ring focus:ring-indigo-300/50 focus:ring-opacity-50 sm:text-base;
+  }
+}
+
+@page {
+  size: A4;
+  margin: 0;
+  width: 210mm;
+  height: calc(297mm - 1px);
+  overflow: hidden;
+}
+
+.page {
+  width: 210mm;
+  height: calc(297mm - 1px);
+  overflow: hidden;
+}
