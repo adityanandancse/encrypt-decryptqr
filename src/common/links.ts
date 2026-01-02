@@ -6,9 +6,9 @@ const links = {
   },
   examples: {
     typescript:
-      "https://github.com/kangabru/encrypt-qr-codes/blob/master/src/common/crypto.ts",
+      "https://github.com/adityanandancse/encrypt-decryptqr/blob/main/src/common/crypto.ts",
     python:
-      "https://github.com/kangabru/encrypt-qr-codes/blob/master/python/decrypt.py",
+      "https://github.com/adityanandancse/encrypt-decryptqr/blob/main/python/decrypt.py",
   },
   crypto: {
     aesGcm:
