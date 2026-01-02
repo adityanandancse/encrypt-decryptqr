@@ -1,8 +1,8 @@
 const links = {
   github: {
-    home: "https://github.com/kangabru/encrypt-qr-codes",
-    deploy: `https://github.com/kangabru/encrypt-qr-codes#deploy`,
-    local: `https://github.com/kangabru/encrypt-qr-codes#develop`,
+    home: "https://github.com/adityanandancse",
+    deploy: `https://github.com/adityanandancse/encrypt-decryptqr#deploy`,
+    local: `https://github.com/adityanandancse/encrypt-decryptqr#develop`,
   },
   examples: {
     typescript:
