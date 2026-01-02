@@ -125,7 +125,7 @@ function getQrText(options: QrCodeOoptions, size: number, pad: number): string {
   // Bottom left
   if (options.showWebsiteUrl)
     svgLines.push(
-      `<text x="${x1}" y="${y2}" text-anchor="start">/kangabru/encrypt-qr-codes</text>`,
+      `<text x="${x1}" y="${y2}" text-anchor="start">/adityanandancse/encryptedqr</text>`,
     )
 
   svgLines.push(`</g>`)
